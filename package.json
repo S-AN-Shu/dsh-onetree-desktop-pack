@@ -9,7 +9,8 @@
     "CONTENTS.json",
     "README.md",
     "LICENSE",
-    "THIRD_PARTY_NOTICES.md"
+    "THIRD_PARTY_NOTICES.md",
+    "LEGAL"
   ],
   "dsh": {
     "bundle": {

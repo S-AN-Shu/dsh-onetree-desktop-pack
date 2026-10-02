@@ -33,3 +33,5 @@ The @deepseek-ai/dsh-prompt-custom component is a local MIT-licensed maintenance
 Reader and narrator maintenance sources: https://github.com/S-AN-Shu/dsh-better-display/tree/reader-narration-0.3.4 and https://github.com/S-AN-Shu/dsh-progress-narrator .
 
 Ordinary runtime dependencies bundled into the main tarball retain their package licenses. Desktop supplies host runtime peers; application binaries and duplicate host services are not bundled.
+
+The bundled `@img/sharp-win32-x64@0.35.3` includes libvips 8.18.3 DLLs and the LGPL components named in its README. [DLL source and replacement information](LEGAL/SHARP-NOTICE.md), the unmodified [GNU GPL v3 text](LEGAL/GPL-3.0.txt), and the unmodified [GNU LGPL v3 text](LEGAL/LGPL-3.0.txt) accompany the main tarball.
