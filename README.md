@@ -1,6 +1,6 @@
 # DSH Desktop 增强配置包
 
-适用 **DeepSeek Harness Desktop 0.2.0-rc.2**，组合阅读界面、进度播报、ACP 认知压缩、持久记忆等 19 个插件组件。
+适用 **Windows x64 上的 DeepSeek Harness Desktop 0.2.0-rc.2**，组合阅读界面、进度播报、ACP 认知压缩、持久记忆等 19 个插件组件。
 
 ## 安装
 

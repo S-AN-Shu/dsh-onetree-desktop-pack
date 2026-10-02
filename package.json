@@ -90,5 +90,11 @@
     "dsh-progress-narrator",
     "dsh-better-display",
     "@taxueseek/argo-dsh"
+  ],
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
   ]
 }
