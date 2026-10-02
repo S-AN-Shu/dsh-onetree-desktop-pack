@@ -1,0 +1,72 @@
+{
+  "name": "dsh-onetree-desktop-pack",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "非官方 一树 Desktop 配置组合包：阅读界面、ACP、研究与便携预设，无私人数据。",
+  "license": "MIT",
+  "files": [
+    "cordis.patch.yml",
+    "COLLABORATION_RULES.md",
+    "CONTENTS.json",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": [
+        "./node_modules/@yishu/dsh-blender-official/cordis.patch.yml",
+        "./node_modules/@yishu/dsh-session-manager/cordis.patch.yml",
+        "./node_modules/@yishu/dsh-acp-official/cordis.patch.yml",
+        "./node_modules/@yishu/dsh-output-watchdog/cordis.patch.yml",
+        "./node_modules/@yishu/dsh-proxy-retained/cordis.patch.yml",
+        "./node_modules/dsh-cost-meter/cordis.patch.yml",
+        "./node_modules/dsh-better-sidebar/cordis.patch.yml",
+        "./node_modules/dsh-skill-manager/cordis.patch.yml",
+        "./node_modules/@deepseek-ai/dsh-prompt-custom/cordis.patch.yml",
+        "./node_modules/dsh-reasoning-effort/cordis.patch.yml",
+        "./node_modules/dsh-wsl-workspace/cordis.patch.yml",
+        "./node_modules/dsh-basics-panel/cordis.patch.yml",
+        "./node_modules/dsh-community-market/cordis.patch.yml",
+        "./node_modules/dsh-easyrewrite/cordis.patch.yml",
+        "./node_modules/dsh-context/cordis.patch.yml",
+        "./node_modules/dsh-progress-narrator/cordis.patch.yml",
+        "./node_modules/dsh-better-display/cordis.patch.yml",
+        "./node_modules/@taxueseek/argo-dsh/cordis.patch.yml",
+        "./cordis.patch.yml"
+      ]
+    }
+  },
+  "dependencies": {
+    "@yishu/dsh-blender-official": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/yishu-dsh-blender-official-0.9.4-rc2.1.share.1.tgz",
+    "@yishu/dsh-session-manager": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/yishu-dsh-session-manager-0.2.0-rc2.9.share.1.tgz",
+    "@yishu/dsh-acp-official": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/yishu-dsh-acp-official-0.2.23-rc2.2.share.1.tgz",
+    "@yishu/dsh-output-watchdog": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/yishu-dsh-output-watchdog-0.2.0-rc2.3.share.1.tgz",
+    "@yishu/dsh-proxy-retained": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/yishu-dsh-proxy-retained-0.1.125-retained.1.share.1.tgz",
+    "dsh-cost-meter": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-cost-meter-1.7.46-onetree.share.1.tgz",
+    "dsh-better-sidebar": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-better-sidebar-0.24.1-yishu.2.share.1.tgz",
+    "dsh-skill-manager": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-skill-manager-0.2.0-onetree.share.1.tgz",
+    "@deepseek-ai/dsh-prompt-custom": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/deepseek-ai-dsh-prompt-custom-0.2.0-rc2.2.share.1.tgz",
+    "dsh-reasoning-effort": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-reasoning-effort-0.8.0-onetree.share.1.tgz",
+    "dsh-wsl-workspace": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-wsl-workspace-0.7.5-onetree.share.1.tgz",
+    "dsh-basics-panel": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-basics-panel-0.4.1-onetree.share.1.tgz",
+    "dsh-community-market": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-community-market-0.1.0-dev.0-yishu.rc2.3.share.1.tgz",
+    "dsh-easyrewrite": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-easyrewrite-2.6.0-yishu.rc2.1.share.1.tgz",
+    "dsh-context": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-context-0.62.2-onetree.share.1.tgz",
+    "dsh-progress-narrator": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-progress-narrator-0.4.0-onetree.share.1.tgz",
+    "dsh-better-display": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/dsh-better-display-0.3.4-yishu.reader.2.share.1.tgz",
+    "@taxueseek/argo-dsh": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.0/taxueseek-argo-dsh-2.9.1-yishu.rc2.2.share.1.tgz"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": "0.2.0-rc.2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S-AN-Shu/dsh-onetree-desktop-pack.git"
+  }
+}

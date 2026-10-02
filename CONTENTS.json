@@ -1,0 +1,253 @@
+{
+  "format": "dsh.bundle",
+  "targetRuntime": "0.2.0-rc.2",
+  "components": [
+    {
+      "name": "@yishu/dsh-blender-official",
+      "sourceVersion": "0.9.4-rc2.1",
+      "shareVersion": "0.9.4-rc2.1.share.1",
+      "license": "BSD-3-Clause",
+      "archive": "yishu-dsh-blender-official-0.9.4-rc2.1.share.1.tgz",
+      "source": null,
+      "mode": "optional",
+      "sha256": "3d5f6f1ee3ed58ddff43c702ae5a44d15e8fee248b5f3ed9a5b9b591fa04fe83",
+      "fileCount": 27
+    },
+    {
+      "name": "@yishu/dsh-session-manager",
+      "sourceVersion": "0.2.0-rc2.9",
+      "shareVersion": "0.2.0-rc2.9.share.1",
+      "license": "MIT",
+      "archive": "yishu-dsh-session-manager-0.2.0-rc2.9.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "af29975ee5240b39940daf0837366d6343d518a7301f100e7003df49f9260c39",
+      "fileCount": 10
+    },
+    {
+      "name": "@yishu/dsh-acp-official",
+      "sourceVersion": "0.2.23-rc2.2",
+      "shareVersion": "0.2.23-rc2.2.share.1",
+      "license": "MIT",
+      "archive": "yishu-dsh-acp-official-0.2.23-rc2.2.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "c421b551f3ac317426bdcbc9257247714f4a22d7748265d5160a58ac2b9f9c82",
+      "fileCount": 21
+    },
+    {
+      "name": "@yishu/dsh-output-watchdog",
+      "sourceVersion": "0.2.0-rc2.3",
+      "shareVersion": "0.2.0-rc2.3.share.1",
+      "license": "BSD-3-Clause",
+      "archive": "yishu-dsh-output-watchdog-0.2.0-rc2.3.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "2c30d3708391277123ad8775a832eb35ef849a83fb351cc31f2c736836adfc0e",
+      "fileCount": 6
+    },
+    {
+      "name": "@yishu/dsh-proxy-retained",
+      "sourceVersion": "0.1.125-retained.1",
+      "shareVersion": "0.1.125-retained.1.share.1",
+      "license": "MIT",
+      "archive": "yishu-dsh-proxy-retained-0.1.125-retained.1.share.1.tgz",
+      "source": null,
+      "mode": "optional",
+      "sha256": "5b8f3ea69a64efe3048c0178a5f8328e1afa664af11ea3212a897aec029be6e0",
+      "fileCount": 16
+    },
+    {
+      "name": "dsh-cost-meter",
+      "sourceVersion": "1.7.46",
+      "shareVersion": "1.7.46-onetree.share.1",
+      "license": "MIT",
+      "archive": "dsh-cost-meter-1.7.46-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/Han-1413141/dsh-cost-meter.git"
+      },
+      "mode": "enabled",
+      "sha256": "4935050ce050341968730372cbf656b875b007e67138bf0041ff95f3f7ec6e52",
+      "fileCount": 34
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "sourceVersion": "0.24.1-yishu.2",
+      "shareVersion": "0.24.1-yishu.2.share.1",
+      "license": "MIT",
+      "archive": "dsh-better-sidebar-0.24.1-yishu.2.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      },
+      "mode": "enabled",
+      "sha256": "29c51e8426019c49d1e67b56b9b03cf756bba122ec16d29aea9c4f5c299a7cfc",
+      "fileCount": 190
+    },
+    {
+      "name": "dsh-skill-manager",
+      "sourceVersion": "0.2.0",
+      "shareVersion": "0.2.0-onetree.share.1",
+      "license": "MIT",
+      "archive": "dsh-skill-manager-0.2.0-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/S-AN-Shu/dsh-skill-manager.git",
+        "directory": "packages/plugin"
+      },
+      "mode": "enabled",
+      "sha256": "0a295a39046a18ef9f40ad92916c7defcb44d1f3037447fdde78f08c398d425c",
+      "fileCount": 15
+    },
+    {
+      "name": "@deepseek-ai/dsh-prompt-custom",
+      "sourceVersion": "0.2.0-rc2.2",
+      "shareVersion": "0.2.0-rc2.2.share.1",
+      "license": "MIT",
+      "archive": "deepseek-ai-dsh-prompt-custom-0.2.0-rc2.2.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "f8a36b82ba0bf2b87a48f616c1db98a6ce8bdbaf4872bd4cbe7f106cd9788741",
+      "fileCount": 6
+    },
+    {
+      "name": "dsh-reasoning-effort",
+      "sourceVersion": "0.8.0",
+      "shareVersion": "0.8.0-onetree.share.1",
+      "license": "MIT",
+      "archive": "dsh-reasoning-effort-0.8.0-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/HanaAyane/dsh-reasoning-effort.git"
+      },
+      "mode": "enabled",
+      "sha256": "e5932bf59343ebe84179741091691ab76b0f6a9027182d5ba6d7fb88eadc7068",
+      "fileCount": 13
+    },
+    {
+      "name": "dsh-wsl-workspace",
+      "sourceVersion": "0.7.5",
+      "shareVersion": "0.7.5-onetree.share.1",
+      "license": "MIT",
+      "archive": "dsh-wsl-workspace-0.7.5-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace.git"
+      },
+      "mode": "optional",
+      "sha256": "fe006df403f1a3974c4604689ae46da532d01680a82e1d914bf4c0b0af10f068",
+      "fileCount": 15
+    },
+    {
+      "name": "dsh-basics-panel",
+      "sourceVersion": "0.4.1",
+      "shareVersion": "0.4.1-onetree.share.1",
+      "license": "MIT",
+      "archive": "dsh-basics-panel-0.4.1-onetree.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "182afea8216530758ecc82d4a2fd02ce277e11363e67b54655e84c7da68487b4",
+      "fileCount": 31
+    },
+    {
+      "name": "dsh-community-market",
+      "sourceVersion": "0.1.0-dev.0-yishu.rc2.3",
+      "shareVersion": "0.1.0-dev.0-yishu.rc2.3.share.1",
+      "license": "MIT",
+      "archive": "dsh-community-market-0.1.0-dev.0-yishu.rc2.3.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/anywhere-labs/deepseek-harness-desktop.git",
+        "directory": "dsh-community-market"
+      },
+      "mode": "enabled",
+      "sha256": "b98b9f73dff7dc56c487a0242d8dccbd33a5531ef38b58152ebecf8387c7f85b",
+      "fileCount": 74
+    },
+    {
+      "name": "dsh-easyrewrite",
+      "sourceVersion": "2.6.0-yishu.rc2.1",
+      "shareVersion": "2.6.0-yishu.rc2.1.share.1",
+      "license": "MIT",
+      "archive": "dsh-easyrewrite-2.6.0-yishu.rc2.1.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/Renzic-Stone/DSH-EasyRewrite.git"
+      },
+      "mode": "enabled",
+      "sha256": "666f7cfba138f7f38d6a79d24dcbd4c1621ba8e66a2aebc31ec9f0e124138438",
+      "fileCount": 6
+    },
+    {
+      "name": "dsh-context",
+      "sourceVersion": "0.62.2",
+      "shareVersion": "0.62.2-onetree.share.1",
+      "license": "Apache-2.0",
+      "archive": "dsh-context-0.62.2-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/bowenliang123/dsh-context.git"
+      },
+      "mode": "enabled",
+      "sha256": "238f80bacbcb1f665b40fc04843b6376efc9abd53f125b42ca5f4a1a97c5d040",
+      "fileCount": 9
+    },
+    {
+      "name": "dsh-progress-narrator",
+      "sourceVersion": "0.4.0",
+      "shareVersion": "0.4.0-onetree.share.1",
+      "license": "BSD-3-Clause",
+      "archive": "dsh-progress-narrator-0.4.0-onetree.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/S-AN-Shu/dsh-progress-narrator.git"
+      },
+      "mode": "enabled",
+      "sha256": "ffb50d6d05f407563d554ea38e8791e0e4daeb4b3574a5e0e950c36cd0e52e8d",
+      "fileCount": 9
+    },
+    {
+      "name": "dsh-better-display",
+      "sourceVersion": "0.3.4-yishu.reader.2",
+      "shareVersion": "0.3.4-yishu.reader.2.share.1",
+      "license": "MIT",
+      "archive": "dsh-better-display-0.3.4-yishu.reader.2.share.1.tgz",
+      "source": {
+        "type": "git",
+        "url": "git+https://github.com/aa2246740/dsh-better-display.git"
+      },
+      "mode": "enabled",
+      "sha256": "a7abc57a7a3bd8e9a51645941d68f81edebe84be4f2e9c83bb13428048d2ccb4",
+      "fileCount": 140
+    },
+    {
+      "name": "@taxueseek/argo-dsh",
+      "sourceVersion": "2.9.1-yishu.rc2.2",
+      "shareVersion": "2.9.1-yishu.rc2.2.share.1",
+      "license": "MIT",
+      "archive": "taxueseek-argo-dsh-2.9.1-yishu.rc2.2.share.1.tgz",
+      "source": null,
+      "mode": "enabled",
+      "sha256": "aea28fe693f72d41987c8e4d0cfc3eacf52e720b43cb00c1d41b36ffedeb3dd7",
+      "fileCount": 8
+    }
+  ],
+  "presets": [
+    "onetree-standard",
+    "onetree-ptc",
+    "onetree-minimal",
+    "onetree-cordis"
+  ],
+  "exclusions": [
+    "all skills directories and files",
+    "Wiki",
+    "sessions and conversation exports",
+    "memory and knowledge databases",
+    "accounts and credentials",
+    "personal model/provider settings",
+    "private paths and external-service commands",
+    "old web profile",
+    "raw logs and backups"
+  ]
+}
