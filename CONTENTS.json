@@ -245,6 +245,17 @@
       "mode": "enabled",
       "sha256": "76d12629cbb975f212a77b00c893145af2bd417a5833ed5e8a6f6f46684cb326",
       "fileCount": 8
+    },
+    {
+      "name": "dsh-thinking-effort-onetree",
+      "sourceVersion": "0.3.7-onetree.20261003.3",
+      "shareVersion": "0.3.7-onetree.20261003.3.share.1",
+      "license": "MIT",
+      "archive": "dsh-thinking-effort-onetree-0.3.7-onetree.20261003.3.share.1.tgz",
+      "source": "https://github.com/hytime/dsh-thinking-effort.git",
+      "mode": "enabled",
+      "sha256": "09794d1ae08ad4bfa93bc919d28ab1c54c4701e221d30ed55f0b1a9bb9187446",
+      "fileCount": 70
     }
   ],
   "presets": [

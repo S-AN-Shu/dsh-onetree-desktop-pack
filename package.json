@@ -1,6 +1,6 @@
 {
   "name": "dsh-onetree-desktop-pack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "DSH Desktop 增强配置：阅读、播报、ACP认知压缩与持久记忆。",
   "license": "MIT",
@@ -34,6 +34,7 @@
         "./node_modules/dsh-progress-narrator/cordis.patch.yml",
         "./node_modules/dsh-better-display/cordis.patch.yml",
         "./node_modules/@taxueseek/argo-dsh/cordis.patch.yml",
+        "./node_modules/dsh-thinking-effort-onetree/cordis.patch.yml",
         "./cordis.patch.yml"
       ]
     }
@@ -57,7 +58,8 @@
     "dsh-context": "0.62.2-onetree.share.1",
     "dsh-progress-narrator": "0.4.0-onetree.share.1",
     "dsh-better-display": "0.3.4-yishu.reader.2.share.1",
-    "@taxueseek/argo-dsh": "2.9.1-yishu.rc2.2.share.1"
+    "@taxueseek/argo-dsh": "2.9.1-yishu.rc2.2.share.1",
+    "dsh-thinking-effort-onetree": "0.3.7-onetree.20261003.3.share.1"
   },
   "peerDependencies": {
     "@deepseek-ai/dsh": "0.2.0-rc.2"
@@ -90,7 +92,8 @@
     "dsh-context",
     "dsh-progress-narrator",
     "dsh-better-display",
-    "@taxueseek/argo-dsh"
+    "@taxueseek/argo-dsh",
+    "dsh-thinking-effort-onetree"
   ],
   "os": [
     "win32"

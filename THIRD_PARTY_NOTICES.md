@@ -22,6 +22,7 @@ The configuration is MIT-licensed. Component maintenance copies retain their ori
 | dsh-context | 0.62.2 | 0.62.2-onetree.share.1 | Apache-2.0 | git+https://github.com/bowenliang123/dsh-context.git |
 | dsh-progress-narrator | 0.4.0 | 0.4.0-onetree.share.1 | BSD-3-Clause | https://github.com/S-AN-Shu/dsh-progress-narrator.git |
 | dsh-better-display | 0.3.4-yishu.reader.2 | 0.3.4-yishu.reader.2.share.1 | MIT | git+https://github.com/aa2246740/dsh-better-display.git |
+| dsh-thinking-effort-onetree | 0.3.7-onetree.20261003.3 | 0.3.7-onetree.20261003.3.share.1 | MIT | https://github.com/hytime/dsh-thinking-effort |
 | @taxueseek/argo-dsh | 2.9.1-yishu.rc2.2 | 2.9.1-yishu.rc2.2.share.1 | MIT | Not declared |
 
 The memory program is MIT-licensed. Its md_cg/lexicon/cedict_en_zh.json language lookup is derived from CC-CEDICT contributors / MDBG and licensed separately under CC BY-SA 4.0. Source: https://www.mdbg.net/chinese/dictionary?page=cedict . Attribution and transformation details are retained in the memory component THIRD_PARTY_NOTICES.md.

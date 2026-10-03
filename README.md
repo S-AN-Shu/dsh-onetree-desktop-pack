@@ -1,14 +1,14 @@
 # DSH Desktop 增强配置包
 
-适用 **Windows x64 上的 DeepSeek Harness Desktop 0.2.0-rc.2**，组合阅读界面、进度播报、ACP 认知压缩、持久记忆等 19 个插件组件。
+适用 **Windows x64 上的 DeepSeek Harness Desktop 0.2.0-rc.2**，组合阅读界面、进度播报、ACP 认知压缩、持久记忆等 20 个插件组件。
 
 ## 安装
 
-1. 在 [v0.1.1 Release](https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/tag/v0.1.1) 下载 ZIP 并解压。
-2. 打开 Desktop「插件 → 添加插件」，输入主文件 `dsh-onetree-desktop-pack-0.1.1.tgz` 的绝对路径，安装后选择「立即启用」。
+1. 在 [v0.1.2 Release](https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/tag/v0.1.2) 下载 ZIP 并解压。
+2. 打开 Desktop「插件 → 添加插件」，输入主文件 `dsh-onetree-desktop-pack-0.1.2.tgz` 的绝对路径，安装后选择「立即启用」。
 3. 在新会话中选择「ACP 认知压缩 · 标准 / PTC / 精简 / Cordis」。
 
-也可直接导入主 TGZ 的 [公开下载地址](https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.1/dsh-onetree-desktop-pack-0.1.1.tgz)。ZIP 用于下载，实际导入格式为 TGZ；主包已内置组件，避免 URL 子依赖的安装限制。不要分别启用组件再启用主包。
+也可直接导入主 TGZ 的 [公开下载地址](https://github.com/S-AN-Shu/dsh-onetree-desktop-pack/releases/download/v0.1.2/dsh-onetree-desktop-pack-0.1.2.tgz)。ZIP 用于下载，实际导入格式为 TGZ；主包已内置组件，避免 URL 子依赖的安装限制。不要分别启用组件再启用主包。
 
 ## 预设与首次使用
 
@@ -33,7 +33,8 @@
 | 费用统计（dsh-cost-meter） | 了解调用成本：展示 token 用量和费用信息。 |
 | 侧边栏（dsh-better-sidebar） | 便于切换工作内容：增强侧边栏、标题栏和工具入口。 |
 | 基础面板（dsh-basics-panel） | 集中常用设置：提供基础操作与配置入口。 |
-| 推理强度（dsh-reasoning-effort） | 按任务调整思考投入：提供推理强度设置。 |
+| 推理强度（dsh-reasoning-effort） | 在对话输入区快捷选择当前模型的推理强度。 |
+| 模型能力与档位（dsh-thinking-effort-onetree） | 配置模型档位与网关值映射、子代理默认档位，并按提供商批量开关识图。 |
 | 插件市场（dsh-community-market） | 方便发现扩展：查询和管理社区插件来源。 |
 | 重写（dsh-easyrewrite） | 方便修改消息：提供重写与再次生成的操作。 |
 | 提示词设置（dsh-prompt-custom） | 保留自定义入口：可添加自己的提示词，默认关闭且内容为空。 |
